@@ -1,5 +1,7 @@
 file(GLOB SRCS *.cpp)
 
+find_package(Python COMPONENTS Interpreter Development REQUIRED)
+
 find_package(pybind11 REQUIRED)
 pybind11_add_module(strength_py ${SRCS})
 target_link_libraries(
