@@ -40,13 +40,15 @@ python3 parse_csa_to_sgf.py
 #rank_∞のデータ
 python3 create_rankinf.py
 ```
-なお、これらの処理はコンテナの外で実行してください。
-
+<!-- なお、これらの処理はコンテナの外で実行してください。 -->
+ここまではできてる！！！！
 
 ### 強さ推定器の学習
 強さ推定器の学習モデルを作成するためには、以下のコマンドを実行します。
 ```bash
 ./scripts/train.sh shogi cfg/se_shogi.cfg           #SE
+#ここでrank_networkというモジュールがないといわれるが，そもそもそのファイルが存在していない．消していいかわからない
+#おそらくBTで判断しているから快斗は使っていなかったかも？
 ./scripts/train.sh shogi cfg/se_infty_shogi.cfg     #SE_∞(rank_∞が含まれる)
 ```
 学習を始めると以下の構造のフォルダが作成されます。

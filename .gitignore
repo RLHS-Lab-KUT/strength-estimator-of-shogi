@@ -27,3 +27,4 @@ evaluator_*
 accuracy_*
 player*
 mcts_*/
+*.csv

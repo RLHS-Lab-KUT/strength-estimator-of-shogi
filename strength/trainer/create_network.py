@@ -1,5 +1,5 @@
 from minizero.minizero.network.py.alphazero_network import AlphaZeroNetwork
-from .rank_network import RankNetwork
+# from .rank_network import RankNetwork #should i delte it ? 
 from .bt_network import BTNetwork
 
 
