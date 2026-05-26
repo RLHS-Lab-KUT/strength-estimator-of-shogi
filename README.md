@@ -20,7 +20,7 @@ docker build -t my-image-name -f ./minizero/Dockerfile .
 その後、作成したコンテナに入りビルドを行います。
 ```bash
 # コンテナを実行
-./scripts/start-container.sh --image my-image-name
+./scripts/start-container-gpu.sh --image my-image-name
 
 # コンテナ内でプログラムをビルド
 ./scripts/build.sh shogi

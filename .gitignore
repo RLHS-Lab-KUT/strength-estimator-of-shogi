@@ -12,6 +12,7 @@ go_19x19_*/
 .sgf
 .txt
 .vscode
+csa/
 
 training_shogi
 rank_*

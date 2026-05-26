@@ -20,6 +20,7 @@ RUN rm /etc/apt/sources.list.d/cuda.list || true && \
     wget \
     cmake \
     ffmpeg \
+    libzip-dev \
     clang-format \
     python3-pip \
     python3-dev \
