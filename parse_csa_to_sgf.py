@@ -102,7 +102,7 @@ def process_to_rank_txt(csa_dir, files):
     return success_counts
 
 def main():
-    csa_dir = "/media/katiogoto/abb1e836-e529-4059-80be-167839ba757a/wdoor2025/2025"
+    csa_dir = "/workspace/csa"
     if not os.path.exists(csa_dir):
         print(f"Directory not found: {csa_dir}")
         return

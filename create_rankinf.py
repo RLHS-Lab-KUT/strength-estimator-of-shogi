@@ -7,10 +7,10 @@ import shutil
 import gc
 from tqdm import tqdm
 
-CSA_DIR = "/media/katiogoto/abb1e836-e529-4059-80be-167839ba757a/wdoor2025/2025"
-TEMP_POOL_DIR = "/media/katiogoto/abb1e836-e529-4059-80be-167839ba757a/random_temp_pool"
+CSA_DIR = "/workspace/csa"  # CSAファイルのディレクトリ
+TEMP_POOL_DIR = "/workspace/random_temp_pool"
 
-OUTPUT_DIR = "/media/katiogoto/abb1e836-e529-4059-80be-167839ba757a/shogi_training_data/random_data"
+OUTPUT_DIR = "/workspace/shogi_training_data/random_data"
 
 # 100万件程度にする場合はここを 1000000 に
 MAX_SAMPLES = 800000 
