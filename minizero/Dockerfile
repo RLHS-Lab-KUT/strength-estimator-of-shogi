@@ -88,6 +88,9 @@ RUN apt-get update && \
     cd .. && \
     rm -rf gogui-1.4.9 gogui-1.4.9.zip && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
+    
+# install cshogi
+RUN pip3 install cshogi tqdm numpy    
 
 RUN mkdir /workspace
 WORKDIR /workspace
