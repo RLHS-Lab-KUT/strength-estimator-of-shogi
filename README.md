@@ -13,9 +13,9 @@
 ### ビルド
 まず、このレポジトリをクローンしてDockerfileを任意の名前でビルドします。(my-image-nameは任意に指定)
 ```bash
-git clone --recursive git@github.com:rlglab/strength-estimator.git
+git clone --recursive https://github.com/RLHS-Lab-KUT/strength-estimator-of-shogi.git
+cd strength-estimator-of-shogi
 docker build -t my-image-name -f ./minizero/Dockerfile .
-cd strength-estimator
 ```
 その後、作成したコンテナに入りビルドを行います。
 ```bash
